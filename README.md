@@ -2,6 +2,8 @@
 
 This project implements a real-time video calling application called **Vizo**, built using **Next.js** for the frontend and **Zego's UIKit Prebuilt** library for video conferencing. It provides a simple and secure way for users to connect and collaborate through video calls.
 
+Live link: [Click here](https://vizo-seven.vercel.app/)
+
 ## Table of Contents
   - [Getting Started](#getting-started)
   - [Features](#features)
@@ -38,7 +40,7 @@ This project implements a real-time video calling application called **Vizo**, b
 
 ## Features
 
-- **Real-time video calling:** Powered by Zego's UIKit Prebuilt for seamless video and audio communication.
+- **Real-time video calling:** Powered by Zego's UIKit, which is prebuilt for seamless video and audio communication.
 - **Room-based calls:** Users can join or create rooms using unique room IDs.
 - **User identification:** Displays user names in the video call.
 - **Shareable links:** Easy sharing of room links.
@@ -58,8 +60,8 @@ This project implements a real-time video calling application called **Vizo**, b
 Create a `.env` file in the root directory and add the following environment variables:
 
 ```bash
-ZEGO_APP_ID=<your_zego_app_id>
-ZEGO_SERVER_SECRET=<your_zego_server_secret>
+NEXT_PUBLIC_ZEGO_APP_ID=<your_zego_app_id>
+NEXT_PUBLIC_ZEGO_SERVER_SECRET=<your_zego_server_secret>
 ```
 
 ## Deployment
