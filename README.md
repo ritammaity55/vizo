@@ -1,10 +1,8 @@
-# Vizo : Real-time Video Calling Application
+# Vizo: Real-time Video Calling Application
 
 This project implements a real-time video calling application called **Vizo**, built using **Next.js** for the frontend and **Zego's UIKit Prebuilt** library for video conferencing. It provides a simple and secure way for users to connect and collaborate through video calls.
 
 ## Table of Contents
-- [Vizo : Real-time Video Calling Application](#vizo--real-time-video-calling-application)
-  - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
